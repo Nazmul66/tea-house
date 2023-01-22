@@ -29,7 +29,7 @@
                 light: '#777777',
                 lightW: '#F4F4F4',
                 anotherCol: '#5D5A6F',
-                footerColor: '##494949',
+                footerColor: '#494949',
                 white : '#FFF',
               },
                  boxShadow: {
@@ -42,17 +42,19 @@
 </head>
 <body>
     <!-- Banner section start -->
-      <section class="banner-section py-20">
-        <div class="banner-details max-w-[1140px] mx-auto flex justify-between gap-x-5">
-            <div class="banner-info w-[52%]">
-                <h1 class="text-[76px] font-extrabold leading-[100px] text-dark mb-5">It's good <br>tea time at The Tea House</h1>
-                <p class="text-light font-medium text-[18px] leading-8 mb-8 pr-20">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+      <section class="banner-section lg:py-20 pb-0 pt-8 lg:px-0 px-5">
+        <div class="banner-details max-w-[1140px] mx-auto lg:flex justify-between gap-x-5">
+
+            <div class="banner-info lg:w-[52%] w-[100%] text-center lg:text-left">
+                <h1 class="lg:text-[76px] text-[38px] font-extrabold lg:leading-[100px] leading-[56px]  text-dark mb-5 text-center lg:text-left">It's good <br>tea time at The Tea House</h1>
+                <p class="text-light font-medium lg:text-[18px] text-[16px] lg:leading-8 leading-7 lg:mb-8  mb-6 lg:pr-20 pr-0 text-center lg:text-left">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
                 <a href="#"><button class="rounded-[10px] py-[18px] px-5 text-white text-base font-bold bg-gradient-to-r from-[#FF8938] to-[#FF0000]">Explore More<img src="images/arrow.png" alt="" class="inline ml-4"></button></a>
             </div>
 
-            <div class="banner-img w-[48%] relative">
-                <img src="images/banner.png" alt="" class="w-[100%] absolute bottom-0">
-                <div class="img-details py-[19px] px-[27px] shadow-box w-[255px] flex justify-center items-center absolute bottom-0 left-6 bg-[#FFF] rounded-[10px]">
+            <div class="banner-img lg:w-[48%] w-[100%] relative lg:mt-12 mt-12">
+                <img src="images/banner.png" alt="" class="w-[100%] lg:absolute relative bottom-0">
+
+                <div class="img-details py-[19px] px-[27px] shadow-box w-[255px] flex justify-center items-center lg:absolute relative lg:bottom-0 bottom-14 lg:left-6 left-0 mx-auto lg:mx-0 bg-[#FFF] rounded-[10px] ">
                     <img src="images/shine-star.png" alt="" class="mr-3">
                     <div class="contens">
                         <h3 class="font-extrabold text-[30px] leading-[41px] text-dark">5.00</h3>
@@ -60,18 +62,19 @@
                     </div>
                 </div>
             </div>
+
          </div>
       </section>
     <!-- Banner section end -->
 
     <!-- Feature section start -->
-       <section class="Feature-section py-20">
+       <section class="Feature-section lg:py-20 py-12 px-5 lg:px-5">
         <div class="main-container max-w-[1140px] mx-auto">
-            <h2 class="text-center font-extrabold text-[45px] leading-[62px] text-dark mb-5">Our Featured Products</h2>
-            <p class="text-center font-medium text-[16px] leading-[28px] text-light px-24 mb-[50px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            <h2 class="text-center font-extrabold lg:text-[45px] text-[38px] lg:leading-[62px] leading-[56px] text-dark mb-5">Our Featured Products</h2>
+            <p class="text-center font-medium lg:text-[16px] text-[15px] leading-[28px] text-light lg:px-24 px-0 mb-[50px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
   
-              <div class="flexing-sector grid grid-cols-4 gap-6">
-                <div class="tea-selector rounded-[10px]">
+              <div class="flexing-sector grid lg:grid-cols-4 grid-cols-1 lg:gap-6 gap-8">
+                <div class="tea-selector rounded-[10px] ">
                     <img src="images/tea-1.png" alt="" class="tea-1234 block mx-auto">
                     <h3 class="text-center text-dark font-extrabold text-[25px] mb-[8px]">Milk Tea</h3>
                     <p class="text-center text-light font-semibold text-[16px] leading-6">Creamer could be replaced by fresh milk</p>
@@ -100,36 +103,37 @@
     <!-- Feature section end -->
 
     <!-- service section start -->
-      <section class="service-section py-24">
-        <div class="main-container max-w-[1140px] mx-auto flex justify-between gap-12">
+      <section class="service-section lg:py-24 py-14 lg:px-0 px-5">
+        <div class="main-container max-w-[1140px] mx-auto flex flex-col-reverse lg:flex-row justify-between gap-12">
 
-            <div class="service-gallery grid grid-cols-2 gap-[30px] w-[50%]">
+            <div class="service-gallery grid grid-cols-2 lg:gap-[30px] gap-[15px] lg:w-[50%] w-full">
               <div class="img-12-div">
-                <div class="gradient1 mb-[30px]"></div>
-                <div class="w-full fresh-12">
-                    <img src="images/fresh-2.png" alt="" class="px-[46px] py-[40px]">
+                <div class="gradient1 mb-[15px] lg:mb-[30px]"></div>
+                <div class="w-full fresh-12 px-[46px] py-[40px]">
+                    <img src="images/fresh-2.png" alt="" class="w-full">
                 </div> 
               </div>
+
               <div class="img-12-div">
-                <div class="w-full fresh-13 mb-[30px] px-[30px] pb-[31px] pt-[55px]">
-                    <img src="images/fresh-1.png" alt="" class="">
+                <div class="w-full fresh-13 mb-[15px] lg:mb-[30px] px-[30px] pb-[31px] pt-[55px]">
+                    <img src="images/fresh-1.png" alt="" class="w-full">
                 </div> 
                 <div class="gradient2"></div>
               </div>
             </div>
 
-            <div class="service-details w-[50%]">
-              <h2 class="font-extrabold text-[45px] leading-[62px] text-dark mb-5">Great Tea, Freshly Presented</h2>
-              <p class="font-medium text-[16px] leading-[28px] text-light text-justify mb-[30px]">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+            <div class="service-details lg:w-[50%] w-full">
+              <h2 class="font-extrabold lg:text-[45px] text-[38px] lg:leading-[62px] leading-[56px] text-dark mb-5 text-center lg:text-left">Great Tea, Freshly Presented</h2>
+              <p class="font-medium lg:text-[16px] text-[15px] text-center leading-[28px] text-light lg:text-justify mb-[30px]">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
 
-              <div class="service-content mb-5">
+              <div class="service-content lg:mb-5 mb-10 mt-8 lg:mt-0 text-center lg:text-left">
                 <h3 class="font-extrabold text-[20px] leading-[27px] text-dark mb-[10px]">Unique Taste</h3>
-                <p class="font-medium text-[16px] leading-[28px] text-light pr-20">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+                <p class="font-medium text-[16px] leading-[28px] text-light lg:pr-20 pr-0">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
               </div>
 
-              <div class="service-content">
+              <div class="service-content text-center lg:text-left">
                 <h3 class="font-extrabold text-[20px] leading-[27px] text-dark mb-[10px]">Premium Quality</h3>
-                <p class="font-medium text-[16px] leading-[28px] text-light pr-20">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+                <p class="font-medium text-[16px] leading-[28px] text-light lg:pr-20 pr-0">Premium Quality that makes tea more elegant and more durable when you use it.</p>
               </div>
 
             </div>  
@@ -174,6 +178,105 @@
         </div>
        </section>
     <!-- Client section start -->
+
+    <!-- Events section start -->
+      <section class="event-section lg:py-20 py-14 lg:px-0 px-5">
+        <div class="main-container max-w-[1140px] mx-auto">
+          <h2 class="text-center font-extrabold tlg:ext-[45px] text-[38px] lg:leading-[62px] leading-[56px] text-dark mb-5">News & Events</h2>
+          <p class="text-center font-medium lg:text-[16px] text-[15px] leading-[28px] text-light lg:px-24 px-0 mb-[50px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+
+           <div class="events-product lg:flex justify-between gap-x-6 ">
+            <div class="events-procedure p-[22px] border-[1px] border-[#D2D2D2] rounded-[10px] mb-12 lg:mb-0">
+              <img src="images/news-1.png" alt="" class="mb-5">
+              <span class="font-medium text-[16px] leading-[28px] text-light block mb-[10px]">Feb 05, 2027</span>
+              <h3 class="font-extrabold text-[20px] leading-[27px] text-dark mb-3 pr-5">Collecting 8 points for discount</h3>
+              <p class="font-medium text-[16px] leading-[28px] text-light mb-[8px]">There are many variations of passages of Lorem Ipsum available.</p>
+              <a href="#" class="font-bold text-[16px] leading-[28px] text-dark">Learn More</a>
+            </div>
+
+            <div class="events-procedure p-[22px] border-[1px] border-[#D2D2D2] rounded-[10px] mb-12 lg:mb-0">
+              <img src="images/news-2.png" alt="" class="mb-5">
+              <span class="font-medium text-[16px] leading-[28px] text-light block mb-[10px]">Feb 05, 2027</span>
+              <h3 class="font-extrabold text-[20px] leading-[27px] text-dark mb-3 pr-5">Collecting 8 points for discount</h3>
+              <p class="font-medium text-[16px] leading-[28px] text-light mb-[8px]">There are many variations of passages of Lorem Ipsum available.</p>
+              <a href="#" class="font-bold text-[16px] leading-[28px] text-dark">Learn More</a>
+            </div>
+
+            <div class="events-procedure p-[22px] border-[1px] border-[#D2D2D2] rounded-[10px] ">
+              <img src="images/news-3.png" alt="" class="mb-5">
+              <span class="font-medium text-[16px] leading-[28px] text-light block mb-[10px]">Feb 05, 2027</span>
+              <h3 class="font-extrabold text-[20px] leading-[27px] text-dark mb-3 pr-5">Collecting 8 points for discount</h3>
+              <p class="font-medium text-[16px] leading-[28px] text-light mb-[8px]">There are many variations of passages of Lorem Ipsum available.</p>
+              <a href="#" class="font-bold text-[16px] leading-[28px] text-dark">Learn More</a>
+            </div>
+
+           </div>
+        </div>
+      </section>
+    <!-- Events section start -->
+
+    <!-- footer section start -->
+       <footer class="py-[130px]">
+        <div class="main-container max-w-[1140px] mx-auto">
+
+          <div class="1st-footer flex justify-between items-center mb-[100px]">
+              <img src="images/cup.png" alt="" class="">
+              <div class="get-started flex items-center">
+                <p class="text-footerColor text-[20px] font-medium leading-[40px] mr-10">Ready to get strated?</p>
+                <a href="#"><button class="py-[12px] px-[25px] bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-[10px] text-white text-base font-bold">Get Started</button></a>
+              </div>
+          </div>
+
+          <div class="2nd-footer flex justify-between mb-14">
+             <div class="menu-link w-[23%]">
+                <h4 class="font-semibold text-[20px] leading-[27px] text-dark mb-5">Quick Links</h4>
+                <ul>
+                  <li><a href="">Home</a></li>
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">Insurance</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                </ul>
+             </div>
+
+             <div class="menu-link w-[23%]">
+              <h4 class="font-semibold text-[20px] leading-[27px] text-dark mb-5">Our Service</h4>
+              <ul>
+                <li><a href="">Life Insurance</a></li>
+                <li><a href="">Car Insurance</a></li>
+                <li><a href="">Health Insurance</a></li>
+                <li><a href="">House Insurance</a></li>
+              </ul>
+             </div>
+
+             <div class="menu-link w-[23%]">
+              <h4 class="font-semibold text-[20px] leading-[27px] text-dark mb-5">Help</h4>
+              <ul>
+                <li><a href="">FAQs</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+             </div>
+
+             <div class="subcribe w-[31%]">
+              <h3 class="font-semibold text-[24px] leading-[40px] text-dark mb-5 pr-12">Subscribe to our newsletter</h3>
+              <div class="forms flex justify-between items-center">
+                <input type="Email" name="email" placeholder="Email address" required="required" autocomplete="off" class="form-1">
+                <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+              </div>
+              <div class="social-link">
+                <ul>
+                  <li><a href=""></a><i class="fa-brands fa-facebook-f"></i></li>
+                  <li><a href=""></a><i class="fa-brands fa-twitter"></i></li>
+                  <li><a href=""></a><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+              </div>
+             </div>
+          </div>
+
+          <p class="font-medium text-[16px] leading-[22px] text-center text-footerColor">© 2027 UIDesign.to - All rights reserved.</p>
+
+        </div>
+       </footer>
+    <!-- footer section start -->
 
 
 
