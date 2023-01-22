@@ -112,6 +112,8 @@ footer{
 }
 .social-link ul li .fa-brands{
     color: #494949;
+    cursor: pointer;
+    font-size: 18px;
 }
 
 
@@ -126,8 +128,5 @@ footer{
     footer{
         display: none;
     }
-
-
-
 
 }
