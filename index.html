@@ -25,14 +25,155 @@
           theme: {
             extend: {
               colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
+                dark: '#1C1C1C',
+                light: '#777777',
+                lightW: '#F4F4F4',
+                anotherCol: '#5D5A6F',
+                footerColor: '##494949',
+                white : '#FFF',
+              },
+                 boxShadow: {
+                    box: '0px 7px 50px rgba(0, 0, 0, 0.06)',
+                }
+            },
+          },
         }
       </script>
 </head>
 <body>
+    <!-- Banner section start -->
+      <section class="banner-section py-20">
+        <div class="banner-details max-w-[1140px] mx-auto flex justify-between gap-x-5">
+            <div class="banner-info w-[52%]">
+                <h1 class="text-[76px] font-extrabold leading-[100px] text-dark mb-5">It's good <br>tea time at The Tea House</h1>
+                <p class="text-light font-medium text-[18px] leading-8 mb-8 pr-20">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <a href="#"><button class="rounded-[10px] py-[18px] px-5 text-white text-base font-bold bg-gradient-to-r from-[#FF8938] to-[#FF0000]">Explore More<img src="images/arrow.png" alt="" class="inline ml-4"></button></a>
+            </div>
+
+            <div class="banner-img w-[48%] relative">
+                <img src="images/banner.png" alt="" class="w-[100%] absolute bottom-0">
+                <div class="img-details py-[19px] px-[27px] shadow-box w-[255px] flex justify-center items-center absolute bottom-0 left-6 bg-[#FFF] rounded-[10px]">
+                    <img src="images/shine-star.png" alt="" class="mr-3">
+                    <div class="contens">
+                        <h3 class="font-extrabold text-[30px] leading-[41px] text-dark">5.00</h3>
+                        <p class="text-light font-semibold text-[16px] leading-[22px]">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+      </section>
+    <!-- Banner section end -->
+
+    <!-- Feature section start -->
+       <section class="Feature-section py-20">
+        <div class="main-container max-w-[1140px] mx-auto">
+            <h2 class="text-center font-extrabold text-[45px] leading-[62px] text-dark mb-5">Our Featured Products</h2>
+            <p class="text-center font-medium text-[16px] leading-[28px] text-light px-24 mb-[50px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+  
+              <div class="flexing-sector grid grid-cols-4 gap-6">
+                <div class="tea-selector rounded-[10px]">
+                    <img src="images/tea-1.png" alt="" class="tea-1234 block mx-auto">
+                    <h3 class="text-center text-dark font-extrabold text-[25px] mb-[8px]">Milk Tea</h3>
+                    <p class="text-center text-light font-semibold text-[16px] leading-6">Creamer could be replaced by fresh milk</p>
+                </div>
+
+                <div class="tea-selector rounded-[10px]">
+                    <img src="images/tea-2.png" alt="" class="tea-1234 block mx-auto">
+                    <h3 class="text-center text-dark font-extrabold text-[25px] mb-[8px]">Black Tea</h3>
+                    <p class="text-center text-light font-semibold text-[16px] leading-6">Creamer could be replaced by fresh milk</p>
+                </div>
+
+                <div class="tea-selector rounded-[10px]">
+                    <img src="images/tea-3.png" alt="" class="tea-1234 block mx-auto">
+                    <h3 class="text-center text-dark font-extrabold text-[25px] mb-[8px]">Lemon Tea</h3>
+                    <p class="text-center text-light font-semibold text-[16px] leading-6">Creamer could be replaced by fresh milk</p>
+                </div>
+
+                <div class="tea-selector rounded-[10px]">
+                    <img src="images/tea-4.png" alt="" class="tea-1234 block mx-auto">
+                    <h3 class="text-center text-dark font-extrabold text-[25px] mb-[8px]">Green Tea</h3>
+                    <p class="text-center text-light font-semibold text-[16px] leading-6">Creamer could be replaced by fresh milk</p>
+                </div>
+            </div>
+        </div>
+       </section>
+    <!-- Feature section end -->
+
+    <!-- service section start -->
+      <section class="service-section py-24">
+        <div class="main-container max-w-[1140px] mx-auto flex justify-between gap-12">
+
+            <div class="service-gallery grid grid-cols-2 gap-[30px] w-[50%]">
+              <div class="img-12-div">
+                <div class="gradient1 mb-[30px]"></div>
+                <div class="w-full fresh-12">
+                    <img src="images/fresh-2.png" alt="" class="px-[46px] py-[40px]">
+                </div> 
+              </div>
+              <div class="img-12-div">
+                <div class="w-full fresh-13 mb-[30px] px-[30px] pb-[31px] pt-[55px]">
+                    <img src="images/fresh-1.png" alt="" class="">
+                </div> 
+                <div class="gradient2"></div>
+              </div>
+            </div>
+
+            <div class="service-details w-[50%]">
+              <h2 class="font-extrabold text-[45px] leading-[62px] text-dark mb-5">Great Tea, Freshly Presented</h2>
+              <p class="font-medium text-[16px] leading-[28px] text-light text-justify mb-[30px]">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+
+              <div class="service-content mb-5">
+                <h3 class="font-extrabold text-[20px] leading-[27px] text-dark mb-[10px]">Unique Taste</h3>
+                <p class="font-medium text-[16px] leading-[28px] text-light pr-20">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+              </div>
+
+              <div class="service-content">
+                <h3 class="font-extrabold text-[20px] leading-[27px] text-dark mb-[10px]">Premium Quality</h3>
+                <p class="font-medium text-[16px] leading-[28px] text-light pr-20">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+              </div>
+
+            </div>  
+         </div>
+      </section>
+    <!-- service section end -->
+
+    <!-- Client section start -->
+       <section class="client-section pt-16 pb-24">
+        <div class="main-container max-w-[1140px] mx-auto flex justify-between items-center gap-12 bg-[url('../images/client-bg.png')] bg-no-repeat bg-[center_center] bg-cover px-[70px] py-[85px] rounded-lg">
+
+            <div class="client-details w-[50%]">
+                <h2 class="font-extrabold text-[45px] leading-[62px] text-lightW mb-5">Meet Our Super Clients</h2>
+                <p class="font-normal text-[16px] leading-[28px] text-lightW mb-[30px] pr-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <a href="#" class="bg-[#FFF] py-[15px] px-[28px] rounded-lg"><span class="btn-dash font-bold text-[20px]">Show All</span></a>
+            </div>
+
+            <div class="slider-container w-[40%] ml-auto">
+
+                <div class="client-info rounded-lg bg-[#FFF] pl-[50px] pt-[41px] pr-[42px] pb-[30px] relative bg-[url('../images/group-bg.png')] bg-no-repeat bg-[right_5%_bottom_10%] mb-14 opacity-[0.3]">
+                  <img src="images/client.png" alt="" class="absolute -top-7 -left-7">
+                  <p class="mb-5 font-normal text-[14px] leading-[24px] text-light">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                  <h4 class="text-[16px] leading-[28px] font-bold text-dark">Ilham Yuda</h4>
+                  <span class="text-[16px] leading-[28px] font-medium text-[#5D5A6F]">Businessman</span>
+                </div>
+
+                <div class="client-info rounded-lg bg-[#FFF] pl-[50px] pt-[41px] pr-[42px] pb-[30px] relative bg-[url('../images/group-bg.png')] bg-no-repeat bg-[right_5%_bottom_10%] opacity-[0.3]">
+                    <img src="images/client.png" alt="" class="absolute -top-7 -left-7">
+                    <p class="mb-5 font-normal text-[14px] leading-[24px] text-light">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                    <h4 class="text-[16px] leading-[28px] font-bold text-dark">Ilham Yuda</h4>
+                    <span class="text-[16px] leading-[28px] font-medium text-[#5D5A6F]">Businessman</span>
+                  </div>
+
+                <div class="client-info2 rounded-lg bg-[#FFF] pl-[50px] pt-[41px] pr-[42px] pb-[30px] relative bg-[url('../images/group-bg.png')] bg-no-repeat bg-[right_5%_bottom_10%]">
+                    <img src="images/client.png" alt="" class="absolute -top-7 -left-7">
+                    <p class="mb-5 font-normal text-[14px] leading-[24px] text-light">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                    <h4 class="text-[16px] leading-[28px] font-bold text-dark">Ilham Yuda</h4>
+                    <span class="text-[16px] leading-[28px] font-medium text-[#5D5A6F]">Businessman</span>
+                 </div>
+                
+            </div>
+        </div>
+       </section>
+    <!-- Client section start -->
 
 
 
@@ -40,7 +181,12 @@
     <script src="js/tailwind.config.js"></script>
 
     <!-- Main theme js file -->
-    <script src="js/main.js"></script>
-    
+    <script src="js/main.js"></script>  
 </body>
 </html>
+
+<!-- <i class="fa-brands fa-facebook-f"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-solid fa-star"></i> -->
+
