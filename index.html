@@ -30,19 +30,40 @@
                 lightW: '#F4F4F4',
                 anotherCol: '#5D5A6F',
                 footerColor: '#494949',
-                white : '#FFF',
-              },
+                 white : '#FFF',
+                },
                  boxShadow: {
                     box: '0px 7px 50px rgba(0, 0, 0, 0.06)',
-                }
+                },
             },
           },
         }
       </script>
 </head>
 <body>
+    <!-- header section start -->
+    <header>
+      <nav class="max-w-[1140px] mx-auto flex justify-between items-center">
+        <div class="logos lg:w-1/2">
+          <h1 class="font-black lg:text-[36px] text-[28px] text-[#637417]">Tea<span class="text-[#7f1712]">House</span></h1>
+        </div>
+
+        <div class="menu lg:w-1/2">
+          <ul class="flex justify-end">
+            <li class="mx-7 font-medium text-[16px]"><a href="#home" class="text-halfBlack font-roboto">Home</a></li>
+            <li class="mx-7 font-medium text-[16px]"><a href="#product" class="text-halfBlack font-roboto">Product</a></li>
+            <li class="mx-7 font-medium text-[16px]"><a href="#client" class="text-halfBlack font-roboto">Client</a></li>
+            <li class="mx-7 font-medium text-[16px]"><a href="#service" class="text-halfBlack font-roboto">Service</a></li>
+          </ul>
+        </div>
+
+        <img src="images/nav.png" alt="" class="lg:hidden relative z-[111] img-123">
+      </nav>
+    </header>
+    <!-- header section start -->
+
     <!-- Banner section start -->
-      <section class="banner-section lg:py-20 pb-0 pt-8 lg:px-0 px-5">
+      <section class="banner-section lg:py-36 pb-0 pt-32 lg:px-0 px-5" id="home">
         <div class="banner-details max-w-[1140px] mx-auto lg:flex justify-between gap-x-5">
 
             <div class="banner-info lg:w-[52%] w-[100%] text-center lg:text-left">
@@ -68,8 +89,8 @@
     <!-- Banner section end -->
 
     <!-- Feature section start -->
-       <section class="Feature-section lg:py-20 py-12 px-5 lg:px-5">
-        <div class="main-container max-w-[1140px] mx-auto">
+       <section class="Feature-section lg:py-20 py-12 px-5 lg:px-5" id="product">
+        <div class="main-container4 max-w-[1140px] mx-auto">
             <h2 class="text-center font-extrabold lg:text-[45px] text-[38px] lg:leading-[62px] leading-[56px] text-dark mb-5">Our Featured Products</h2>
             <p class="text-center font-medium lg:text-[16px] text-[15px] leading-[28px] text-light lg:px-24 px-0 mb-[50px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
   
@@ -104,7 +125,7 @@
 
     <!-- service section start -->
       <section class="service-section lg:py-24 py-14 lg:px-0 px-5">
-        <div class="main-container max-w-[1140px] mx-auto flex flex-col-reverse lg:flex-row justify-between gap-12">
+        <div class="main-container3 max-w-[1140px] mx-auto flex flex-col-reverse lg:flex-row justify-between gap-12">
 
             <div class="service-gallery grid grid-cols-2 lg:gap-[30px] gap-[15px] lg:w-[50%] w-full">
               <div class="img-12-div">
@@ -142,8 +163,8 @@
     <!-- service section end -->
 
     <!-- Client section start -->
-       <section class="client-section lg:pt-16 lg:pb-24 pt-12 pb-12 px-5 lg:px-5">
-        <div class="main-container max-w-[1140px] mx-auto lg:flex justify-between items-center gap-12 lg:px-[70px] px-3 lg:py-[85px] py-3 rounded-lg lg:bg-[url('../images/bg-2.png')] bg-no-repeat bg-cover bg-[center_top]">
+       <section class="client-section lg:pt-16 lg:pb-24 pt-12 pb-12 px-5 lg:px-5" id="client">
+        <div class="main-container max-w-[1140px] mx-auto lg:flex justify-between items-center gap-12 lg:px-[70px] px-3 lg:py-[85px] py-3 rounded-lg lg:bg-[url('../images/client-bg.png')] bg-no-repeat bg-cover bg-[center_top]">
 
             <div class="client-details lg:w-[50%] w-full mb-28 lg:mb-0 text-center lg:text-left">
                 <h2 class="font-extrabold lg:text-[45px] text-[38px] lg:leading-[62px] leading-[56px] text-lightW mb-5">Meet Our Super Clients</h2>
@@ -180,8 +201,8 @@
     <!-- Client section start -->
 
     <!-- Events section start -->
-      <section class="event-section lg:py-20 py-14 lg:px-0 px-5">
-        <div class="main-container max-w-[1140px] mx-auto">
+      <section class="event-section lg:py-20 py-14 lg:px-0 px-5" id="service">
+        <div class="main-container1 max-w-[1140px] mx-auto">
           <h2 class="text-center font-extrabold tlg:ext-[45px] text-[38px] lg:leading-[62px] leading-[56px] text-dark mb-5">News & Events</h2>
           <p class="text-center font-medium lg:text-[16px] text-[15px] leading-[28px] text-light lg:px-24 px-0 mb-[50px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
 
@@ -217,7 +238,7 @@
 
     <!-- footer section start -->
        <footer class="lg:py-[130px] py-20 px-5 lg:px-5">
-        <div class="main-container max-w-[1140px] mx-auto">
+        <div class="main-container2 max-w-[1140px] mx-auto">
 
           <div class="1st-footer flex justify-between items-center mb-[100px]">
               <img src="images/cup.png" alt="" class="">

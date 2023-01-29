@@ -10,6 +10,20 @@
     font-family: 'Manrope', sans-serif;
     scroll-behavior: smooth;
 }
+/*========================
+   Header section start
+========================*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;  
+    padding: 28px 0;
+    background-color: #FFFBF0;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.10);
+}
 
 /*===========================
     feature section start 
@@ -121,7 +135,37 @@ footer{
 
 
 @media (min-width: 320px) and (max-width: 576px) {
-   
+
+
+header{
+    position: fixed; 
+    padding: 24px 20px;
+    }
+
+.menu {
+    position: absolute;
+    width: 60% !important;
+    background: #FFFBF0;
+    z-index: 99;
+    min-height: 100vh;
+    top: 0;
+    right:-66%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -6px 10px 46px rgb(0 0 0 / 75%);
+    transition: all 0.3s ease-in-out;
+    }
+    .menu.active{
+        right: 0%;
+        transition: all 0.3s ease-in-out;
+    }
+    .menu ul{
+    display: block;
+    }
+    .menu ul li{
+    margin: 30px 0;
+    }
    /* Client section start */
    .client-section{
     background: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
